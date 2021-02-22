@@ -116,7 +116,7 @@ const HeaderLinks = ({ connected, address, connectWallet, disconnectWallet, isNi
             'Italiano',
             '한글',
             'Português',
-            'русский',
+            'Русский',
             'Svenska',
             'Türkçe',
             'Українська',

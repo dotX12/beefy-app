@@ -32,7 +32,7 @@
   "Vault-MainTitle": "Хранилища",
   "Vault-SecondTitle": "Депозит & Заработок денег",
   "Vault-DepositsPausedTitle": "Депозит приостановлен",
-  "Vault-DepositsPausedMsg": "Депозиты в это хранилище приостановлены.",
+  "Vault-DepositsPausedMsg": "Депозиты в это хранилище приостановлены",
   "Vault-DepositsRetiredTitle": "УСТАРЕЛ",
   "Vault-DepositsRetiredMsg": "Сейф устарел. Скорее выводи деньги!",
   "Hide-Zero-Balances": "Скрыть нулевые балансы",
@@ -65,7 +65,7 @@
   "IFO-Guide": "IFO Руководство",
   "Available-To-Stake": "Доступно для стейкинга",
   "Stake": "Стейкать",
-  "Available-To-Unstake": "Доступно для Анстейка",
+  "Available-To-Unstake": "Доступно для антейка",
   "Unstake": "Анстейк",
   "Max": "Максимум"
 }

@@ -1,15 +1,15 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { renderIcon } from '@download/blockies';
-import { makeStyles } from '@material-ui/core/styles';
+import React, {useEffect, useRef, useState} from 'react';
+import {renderIcon} from '@download/blockies';
+import {makeStyles} from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import Avatar from '@material-ui/core/Avatar';
 import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
-import { WbSunny, NightsStay } from '@material-ui/icons';
+import {NightsStay, WbSunny} from '@material-ui/icons';
 import CustomDropdown from 'components/CustomDropdown/CustomDropdown.js';
 import Button from 'components/CustomButtons/Button.js';
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 
 import styles from './styles';
 
@@ -79,6 +79,8 @@ const HeaderLinks = ({ connected, address, connectWallet, disconnectWallet, isNi
         return i18n.changeLanguage('zh').then(() => setLanguage(event));
       case 'Українська':
         return i18n.changeLanguage('uk').then(() => setLanguage(event));
+      case 'Русский':
+        return i18n.changeLanguage('ru').then(() => setLanguage(event));
       // TODO: more translations
       default:
         return;

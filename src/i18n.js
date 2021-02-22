@@ -1,6 +1,6 @@
 import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import { initReactI18next } from 'react-i18next';
+import {initReactI18next} from 'react-i18next';
 
 import translationCN from './locales/cn/translation.json';
 import translationDE from './locales/de/translation.json';
@@ -16,6 +16,8 @@ import translationSE from './locales/se/translation.json';
 import translationTR from './locales/tr/translation.json';
 import translationUK from './locales/uk/translation.json';
 import translationZH from './locales/zh/translation.json';
+import translationRU from './locales/ru/translation.json';
+
 
 const resources = {
   cn: { translation: translationCN },
@@ -32,6 +34,7 @@ const resources = {
   tr: { translation: translationTR },
   uk: { translation: translationUK },
   zh: { translation: translationZH },
+  ru: {translation: translationRU },
   // TODO: more translations
 };
 

@@ -81,8 +81,6 @@ const HeaderLinks = ({ connected, address, connectWallet, disconnectWallet, isNi
         return i18n.changeLanguage('zh').then(() => setLanguage(event));
       case 'Українська':
         return i18n.changeLanguage('uk').then(() => setLanguage(event));
-      case 'Русский':
-        return i18n.changeLanguage('ru').then(() => setLanguage(event));
       // TODO: more translations
       default:
         return;
